@@ -1,0 +1,87 @@
+[
+  {
+    "role": "admin",
+    "user": {
+      "password": "123123",
+      "gender": true,
+      "phone": "0354903402",
+      "name": "Phùng Văn Huỳnh",
+      "email": "huynhphung2107@gmail.com",
+      "account": "admin"
+    },
+    "status": "đang hoạt động"
+  },
+  {
+    "role": "nv1",
+    "user": {
+      "password": "123123",
+      "gender": true,
+      "phone": "0354903402",
+      "name": "Nguyen Cong Tuan Anh",
+      "email": "huynhphung2107@gmail.com",
+      "account": "nv1"
+    },
+    "status": "đang hoạt động"
+  },
+  {
+    "role": "nv1",
+    "user": {
+      "password": "123123",
+      "gender": true,
+      "phone": "0354903402",
+      "name": "Nguyen Cong Tuan Anh",
+      "email": "huynhphung2107@gmail.com",
+      "account": "nv1"
+    },
+    "status": "đang hoạt động"
+  },
+  {
+    "role": "nv2",
+    "user": {
+      "password": "123123",
+      "gender": true,
+      "phone": "0354903402",
+      "name": "Nguyen Dinh Anh Quan",
+      "email": "huynhphung2107@gmail.com",
+      "account": "nv2"
+    },
+    "status": "đang hoạt động"
+  },
+  {
+    "role": "nv3",
+    "user": {
+      "password": "123123",
+      "gender": false,
+      "phone": "0354903402",
+      "name": "Nong Kieu Oanh",
+      "email": "huynhphung2107@gmail.com",
+      "account": "nv3"
+    },
+    "status": "đang hoạt động"
+  },
+  {
+    "role": "nv4",
+    "user": {
+      "password": "123123",
+      "gender": false,
+      "phone": "0354903402",
+      "name": "Hoang Thi Thu Diep",
+      "email": "huynhphung2107@gmail.com",
+      "account": "nv4"
+    },
+    "status": "đang hoạt động"
+  },
+  {
+    "role": "nv6",
+    "user": {
+      "password": "12123",
+      "gender": true,
+      "phone": "03439342424",
+      "name": "Nguyen van B",
+      "email": "a@gmail.com",
+      "account": "nv6"
+    },
+    "status": "hoat dong"
+  }
+
+]

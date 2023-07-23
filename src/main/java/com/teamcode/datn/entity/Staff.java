@@ -1,16 +1,20 @@
 package com.teamcode.datn.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
-@Setter
-@Getter
-@NoArgsConstructor
+@Data
 @AllArgsConstructor
-@ToString
-public class SanPham {
+@NoArgsConstructor
 
+public class Staff {
+
+    private User user;
+
+    private String role;
+
+    private String status;
 }
