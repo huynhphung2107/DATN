@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Giao diện quản trị bán hàng</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Giao diện quản trị bán hàng</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <h2>Trang chủ</h2>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active btn btn-primary" href="#">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hóa đơn</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="sanPhamDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Danh mục
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="sanPhamDropdown">
+                        <a class="dropdown-item" href="#">Màu sắc</a>
+                        <a class="dropdown-item" href="#">Chất liệu</a>
+                        <a class="dropdown-item" href="#">Thương hiệu</a>
+                        <a class="dropdown-item" href="#">Size</a>
+                        <a class="dropdown-item" href="#">Kiểu ngăn</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hóa đơn</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <h2>Danh sách sản phẩm</h2>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sản phẩm A</td>
+                    <td>100.000đ</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sản phẩm B</td>
+                    <td>200.000đ</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sản phẩm C</td>
+                    <td>150.000đ</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
