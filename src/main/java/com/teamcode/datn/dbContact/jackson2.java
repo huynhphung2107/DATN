@@ -27,7 +27,7 @@ public class jackson2 {
     private static void demo6() throws Exception {
         try {
             // Đường dẫn đến tệp tin JSON ban đầu
-            String filePath = "D:\\FPT Polytechnic\\Ky7_datn\\DATN\\src\\main\\resources\\static\\staffs.json";
+            String filePath = "D:\\FPT Polytechnic\\Ky7_datn\\DATN\\src\\main\\resources\\static\\json\\staffs.json";
 
             // Đọc nội dung từ tệp tin JSON ban đầu
             JSONParser jsonParser = new JSONParser();
@@ -36,21 +36,21 @@ public class jackson2 {
             // Tạo đối tượng mới và thêm vào đối tượng ban đầu
             Map<String, Object> user = new HashMap<String, Object>();
             user.put("email", "a@gmail.com");
-            user.put("account", "nv6");
+            user.put("account", "nv7");
             user.put("name", "Nguyen van B");
             user.put("password", "12123");
-            user.put("phone", "03439342424");
+            user.put("phone", "31231231123");
             user.put("gender", true);
 
             Map<String, Object> staff = new HashMap<String, Object>();
-            staff.put("role", "nv6");
+            staff.put("role", "nv7");
             staff.put("status", "hoat dong");
             staff.put("user", user);
 
             //Add du lieu moi vao json
             jsonArray.add(staff);
             // Ghi đối tượng ban đầu với dữ liệu mới vào tệp tin JSON
-            FileWriter fileWriter = new FileWriter("D:\\FPT Polytechnic\\Ky7_datn\\DATN\\src\\main\\resources\\static\\staffs.json");
+            FileWriter fileWriter = new FileWriter("D:\\FPT Polytechnic\\Ky7_datn\\DATN\\src\\main\\resources\\static\\json\\staffs.json");
             fileWriter.write(jsonArray.toJSONString());
             fileWriter.flush();
             fileWriter.close();
