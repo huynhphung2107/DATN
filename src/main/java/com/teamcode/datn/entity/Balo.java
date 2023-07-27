@@ -1,2 +1,5 @@
-package com.teamcode.datn.entity;public class balo {
+package com.teamcode.datn.entity;
+
+public class Balo {
+
 }
